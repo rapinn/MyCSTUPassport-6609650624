@@ -1,13 +1,19 @@
 /* CSS link */
 
+* {
+    box-sizing: border-box;
+  }
+
 /* body  */
 body {
     background-color: grey;
-
+    
 }
 
 header {
     text-align: center;
+    width: 25%;
+    float: right;
 }
 
 .body-text {
@@ -17,18 +23,22 @@ header {
     display:block;
     text-decoration:none;
     text-align: center;
+    width: 75%;
+    float: left;
 }
 
 h4 {
     text-align: center;
 
 }
-iframe {
+source {
     text-align: center;
     display: block;
     margin: auto;
    
 }
+
+
 /* Back top top */
     html {
         scroll-behavior: smooth;
@@ -47,7 +57,7 @@ iframe {
         text-decoration: none;
         transition: 0.2s ease-out;
     }
-    
+
     .back-to-top span 
     {
         color:whitesmoke;
