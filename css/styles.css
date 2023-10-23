@@ -28,20 +28,20 @@ header {
     float: left;
 }
 
-.paragraph {
-    text-align: center;
-    font-size: 30px
-
-}
-source {
-    width:300;
-    height:400;
-    display: block;
-    margin: 0;
-    width: 50%;
-    float: right;
+.source {
+    position: absolute;
+   
    
 }
+
+.paragraph {
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+    height: 40%;
+
+}
+
 
 
 /* Back top top */
