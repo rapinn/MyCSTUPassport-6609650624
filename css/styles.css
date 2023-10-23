@@ -23,16 +23,19 @@ header {
     display:block;
     text-decoration:none;
     text-align: center;
+    font-weight: bold;
     width: 75%;
     float: left;
 }
 
-h4 {
+.paragraph {
     text-align: center;
+    font-size: 30px
 
 }
 source {
-    text-align: center;
+    width:300;
+    height:400;
     display: block;
     margin: 0;
     width: 50%;
